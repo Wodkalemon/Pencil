@@ -58,6 +58,6 @@ install:
 script:
   - npm run dist:$TRAVIS_OS_NAME
 
-branches:
-  only:
-    - "/^v\\d+\\.\\d+\\.\\d+(\\-.*)?$/"
+#branches:
+#  only:
+#    - "/^v\\d+\\.\\d+\\.\\d+(\\-.*)?$/"
